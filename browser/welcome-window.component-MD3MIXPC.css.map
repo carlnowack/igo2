@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/portal/welcome-window/welcome-window.component.scss"],
+  "sourcesContent": [":host {\n  display: block;\n  padding: 16px;\n\n  .spacer {\n    flex: 1 1 auto;\n  }\n\n  .button-container {\n    display: flex;\n    justify-content: space-around;\n  }\n\n  #doNotShowCheck {\n    margin-right: 5px;\n  }\n\n  mat-toolbar h2 {\n    margin: revert;\n  }\n\n  label {\n    margin-bottom: 0;\n  }\n\n  .mat-mdc-dialog-container {\n    z-index: 1000;\n    box-shadow: 0 0 0 1000em rgba(0, 0, 0, 0.6);\n    transform: translate(-50%, 0);\n  }\n\n  ::ng-deep .custom-html {\n    padding: 0 !important;\n  }\n}\n"],
+  "mappings": "AAAA,MACE,QAAA,MADF,QAEE,KAEA,MAAA,CAAA,OACE,KAAA,EAAA,EAAA,KAGF,MAAA,CAAA,iBACE,QAAA,KACA,gBAAA,aAGF,MAAA,CAAA,eACE,aAAA,IAGF,MAAA,YAAA,GACE,OAAA,OAGF,MAAA,MACE,cAAA,EAGF,MAAA,CAAA,yBACE,QAAA,KACA,WAAA,EAAA,EAAA,EAAA,OAAA,MACA,UAAA,UAAA,MAGF,MAAA,UAAA,CAAA,YA/BF,QAgCI",
+  "names": []
+}

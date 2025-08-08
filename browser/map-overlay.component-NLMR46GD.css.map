@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/portal/map-overlay/map-overlay.component.scss"],
+  "sourcesContent": [":host {\n  height: 100%;\n  top: 0;\n  left: 0;\n  right: 0;\n  position: fixed;\n  pointer-events: none;\n}\n\n.mapOverlayDefault {\n  position: absolute;\n  white-space: nowrap;\n  pointer-events: auto;\n}\n\n.bottom-right {\n  bottom: 0;\n  right: 0;\n}\n\n.top-right {\n  top: 0;\n  right: 0;\n}\n\n.bottom-left {\n  bottom: 0;\n  left: 0;\n}\n\n.top-left {\n  top: 0;\n  left: 0;\n}\n\n.bottom-center {\n  bottom: 0;\n  left: 50%;\n  transform: translate(-50%, 0);\n}\n\n.top-center {\n  top: 0;\n  left: 50%;\n  transform: translate(-50%, 0);\n}\n\n.center-center {\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, 0);\n}\n\n.center-right {\n  top: 50%;\n  right: 0;\n}\n\n.center-left {\n  top: 50%;\n  left: 0;\n}\n"],
+  "mappings": "AAAA,MACE,OAAA,KACA,IAAA,EACA,KAAA,EACA,MAAA,EACA,SAAA,MACA,eAAA,KAGF,CAAA,kBACE,SAAA,SACA,YAAA,OACA,eAAA,KAGF,CAAA,aACE,OAAA,EACA,MAAA,EAGF,CAAA,UACE,IAAA,EACA,MAAA,EAGF,CAAA,YACE,OAAA,EACA,KAAA,EAGF,CAAA,SACE,IAAA,EACA,KAAA,EAGF,CAAA,cACE,OAAA,EACA,KAAA,IACA,UAAA,UAAA,MAGF,CAAA,WACE,IAAA,EACA,KAAA,IACA,UAAA,UAAA,MAGF,CAAA,cACE,IAAA,IACA,KAAA,IACA,UAAA,UAAA,MAGF,CAAA,aACE,IAAA,IACA,MAAA,EAGF,CAAA,YACE,IAAA,IACA,KAAA",
+  "names": []
+}
