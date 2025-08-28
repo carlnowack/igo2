@@ -34,6 +34,7 @@ import { importAllTools } from './sidenav-import';
 
 @Component({
   selector: 'app-sidenav',
+  standalone: true,
   templateUrl: './sidenav.component.html',
   styleUrls: ['./sidenav.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
