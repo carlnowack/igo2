@@ -1,4 +1,14 @@
-{
+{ 
+  "menus": [
+    {
+      "id": "actionbar",
+      "enabled": true,
+      "items": [
+        { "tool": "measure" },
+        { "tool": "search" }
+      ]
+    }
+  ]
   "map": {
     "view": {
       "projection": "EPSG:3857",
