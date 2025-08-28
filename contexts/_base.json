@@ -185,7 +185,7 @@
       "name": "advancedMap"
     },
     {
-      "name": "searchResults", "enabled": true
+      "name": "searchResults"
     },
     {
       "name": "contextManager"
