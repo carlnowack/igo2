@@ -18,7 +18,7 @@
     }
   },
   "favoriteContext4NonAuthenticated": true,
-  "theme": "verdun-theme",
+  "theme": "teal-theme",
   "header": {
     "hasHeader": false,
     "logo": "assets/images/signature-PIV.svg",
