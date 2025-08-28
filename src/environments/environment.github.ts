@@ -7,11 +7,11 @@ export const environment: AppEnvironmentOptions = {
       forceCoordsNA: false,
       install: {
         enabled: true,
-        promote: true,
+        promote: false,
         manifestPath: './config/github.webmanifest'
       },
       pwa: {
-        enabled: false
+        enabled: true
       }
     },
     catalog: {
