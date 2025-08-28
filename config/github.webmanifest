@@ -1,8 +1,8 @@
 {
-  "id": "igo2DemoGitHub",
-  "name": "Demo Github - IGO2",
-  "short_name": "Demo Github - IGO",
-  "description": "Demo Github - IGO2 installable",
+  "id": "VerdunIDS",
+  "name": "Verdun infrastructure de données spatiale",
+  "short_name": "Verdun IDS",
+  "description": "Verdun infrastructure de données spatiale",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
   "display": "standalone",
