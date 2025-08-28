@@ -4,7 +4,7 @@ describe('My First Test', () => {
     cy.visit('/');
     cy.request('GET', `${url}/config/config.json`).then((response) => {
       expect(response.body).to.have.property('title', 'Verdun infrastructure de données spatiales'); // true
-      expect(response.body).to.have.property('theme', 'orange-theme'); // true
+      expect(response.body).to.have.property('theme', 'verdun-theme'); // true
     });
   });
 });
