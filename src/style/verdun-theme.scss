@@ -1,9 +1,10 @@
-
-@use 'sass:map';
 @use '@angular/material' as mat;
-@use '../all-theme';
-@use '../typography';
+@use '../app/app.theme' as app;
+@use './igo2-lib.override' as igo2-lib;
 
+/*
+* Définition du thème Verdun pour l'application IGO2
+*/
 $primary: mat.m2-define-palette(
   (
     50: #e0f5fc,
@@ -109,8 +110,6 @@ $warn: mat.m2-define-palette(
   )
 );
 
-$typography: typography.$igo-typography;
-
 $theme: mat.m2-define-light-theme(
   (
     color: (
@@ -118,12 +117,9 @@ $theme: mat.m2-define-light-theme(
       accent: $accent,
       warn: $warn
     ),
-    typography: $typography,
     density: 0
   )
 );
 
-@include mat.core();
-@include mat.typography-hierarchy($typography);
-@include mat.all-component-themes($theme);
-@include all-theme.all-component-themes($theme);
+@include app.themes($theme);
+@include igo2-lib.theme($theme);
