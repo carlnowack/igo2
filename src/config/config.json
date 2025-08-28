@@ -18,7 +18,7 @@
     }
   },
   "favoriteContext4NonAuthenticated": true,
-  "theme": "blue-theme",
+  "theme": "orange-theme",
   "header": {
     "hasHeader": false,
     "logo": "assets/images/signature-PIV.svg",
@@ -55,7 +55,7 @@
       "available": false
     }
   },
-  "title": "IGO",
+  "title": "Verdun infrastructure de données spatiales",
   "welcomeWindow": {
     "showAgainOnNewIGOVersion": true,
     "nbVisitToShow": 2,
