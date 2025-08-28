@@ -1,14 +1,4 @@
 { 
-  "menus": [
-    {
-      "id": "toolbar",
-      "enabled": true,
-      "items": [
-        { "tool": "measurer" },
-        { "tool": "searchResults" }
-      ]
-    }
-  ]
   "map": {
     "view": {
       "projection": "EPSG:3857",
