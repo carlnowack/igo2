@@ -3,112 +3,12 @@
 @use './igo2-lib.override' as igo2-lib;
 
 /*
-* Définition du thème Verdun pour l'application IGO2
+* Define a default theme for styling some part of the app
+* Don't forget that we also have static theme apply
 */
-$primary: mat.m2-define-palette(
-  (
-    50: #e0f5fc,
-    100: #b3e4f7,
-    200: #80d3f2,
-    300: #4dc2ed,
-    400: #26b5e9,
-    500: #009FE3,
-    600: #008fd1,
-    700: #007fbe,
-    800: #006fab,
-    900: #005f99,
-    A100: #b3e4f7,
-    A200: #80d3f2,
-    A400: #26b5e9,
-    A700: #005f99,
-    contrast: (
-      50: black,
-      100: black,
-      200: black,
-      300: black,
-      400: white,
-      500: white,
-      600: white,
-      700: white,
-      800: white,
-      900: white,
-      A100: black,
-      A200: black,
-      A400: white,
-      A700: white,
-    )
-  ), 500, 300, 700
-);
-
-$accent: mat.m2-define-palette(
-  (
-    50: #fdeee3,
-    100: #fbd5b8,
-    200: #f9bb8a,
-    300: #f7a25c,
-    400: #f68e39,
-    500: #F17E06,
-    600: #d96f05,
-    700: #c06004,
-    800: #a75103,
-    900: #8e4202,
-    A100: #fbd5b8,
-    A200: #f9bb8a,
-    A400: #f68e39,
-    A700: #8e4202,
-    contrast: (
-      50: black,
-      100: black,
-      200: black,
-      300: black,
-      400: black,
-      500: white,
-      600: white,
-      700: white,
-      800: white,
-      900: white,
-      A100: black,
-      A200: black,
-      A400: black,
-      A700: white,
-    )
-  ), 500
-);
-
-$warn: mat.m2-define-palette(
-  (
-    50: #fce3e5,
-    100: #f7b3b8,
-    200: #f2808a,
-    300: #ed4d5c,
-    400: #e92639,
-    500: #E50B14,
-    600: #ce0a12,
-    700: #b70910,
-    800: #a0080e,
-    900: #89070c,
-    A100: #f7b3b8,
-    A200: #f2808a,
-    A400: #e92639,
-    A700: #89070c,
-    contrast: (
-      50: black,
-      100: black,
-      200: black,
-      300: white,
-      400: white,
-      500: white,
-      600: white,
-      700: white,
-      800: white,
-      900: white,
-      A100: black,
-      A200: black,
-      A400: white,
-      A700: white,
-    )
-  )
-);
+$primary: mat.m2-define-palette(mat.$m2-cyan-palette, 700, 400, 900);
+$accent: mat.m2-define-palette(mat.$m2-orange-palette, 200);
+$warn: mat.m2-define-palette(mat.$m2-red-palette);
 
 $theme: mat.m2-define-light-theme(
   (
