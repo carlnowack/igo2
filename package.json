@@ -22,7 +22,7 @@
     "link.build": "ng build --configuration production-link",
     "build": "ng build",
     "build.prod": "ng build --configuration production",
-    "build.github": "ng build --configuration=github --output-path ./dist/ghpages/browser --base-href /igo2/",
+    "build.github": "ng build --configuration=github --output-path ./dist --base-href /igo2/",
     "build.pwa": "ng build --configuration pwa --output-path ./dist/pwa/browser",
     "build.doc": "compodoc -p src/tsconfig.app.json",
     "build.coverage": "ng test --code-coverage --watch=false",
