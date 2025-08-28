@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/pages/footer/footer.component.scss"],
+  "sourcesContent": [".order2 {\n  order: 2;\n  margin-right: 0.5%;\n  display: block;\n  right: 0;\n  margin-left: 140px;\n  text-align: right !important;\n  width: 100%;\n}\n\n$footer-margin-top: 0px;\n$footer-height: 29px;\n\n.footer-right {\n  z-index: 666;\n  background: #ffffffa3;\n  font-size: 0.7rem;\n  display: flex;\n  align-items: center;\n  height: $footer-height;\n}\n\nspan.footer-text {\n  color: #095797;\n  align-self: center;\n  margin-left: 0.5rem;\n}\n\nspan.footer-text a {\n  color: #095797;\n  text-decoration: none;\n}\n\n::ng-deep div.ol-scale-line {\n  position: fixed !important;\n  display: flex;\n  flex-direction: row;\n  margin-left: 0.5%;\n  left: 70px !important;\n  bottom: 3px !important;\n}\n\n::ng-deep .ol-scale-line-inner {\n  border: 1px solid black;\n  color: black;\n  border-top: none;\n  order: 1;\n}\n"],
+  "mappings": "AAAA,CAAA,OACE,MAAA,EACA,aAAA,IACA,QAAA,MACA,MAAA,EACA,YAAA,MACA,WAAA,gBACA,MAAA,KAMF,CAAA,aACE,QAAA,IACA,WAAA,UACA,UAAA,MACA,QAAA,KACA,YAAA,OACA,OARc,KAWhB,IAAA,CAAA,YACE,MAAA,QACA,WAAA,OACA,YAAA,MAGF,IAAA,CANA,YAMA,EACE,MAAA,QACA,gBAAA,KAGF,UAAA,GAAA,CAAA,cACE,SAAA,gBACA,QAAA,KACA,eAAA,IACA,YAAA,IACA,KAAA,eACA,OAAA,cAGF,UAAA,CAAA,oBACE,OAAA,IAAA,MAAA,MACA,MAAA,KACA,WAAA,KACA,MAAA",
+  "names": []
+}
