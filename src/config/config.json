@@ -52,7 +52,7 @@
   },
   "searchSources": {
     "cadastre": {
-      "available": false
+      "available": true
     }
   },
   "title": "Verdun infrastructure de données spatiales",
