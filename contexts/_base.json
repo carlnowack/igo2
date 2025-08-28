@@ -4,8 +4,8 @@
       "id": "toolbar",
       "enabled": true,
       "items": [
-        { "tool": "measure" },
-        { "tool": "search" }
+        { "tool": "measurer" },
+        { "tool": "searchResults" }
       ]
     }
   ]
