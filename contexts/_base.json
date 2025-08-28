@@ -1,10 +1,11 @@
 {
   "map": {
     "view": {
+      "enableRotation": true,
       "projection": "EPSG:3857",
-      "center": [-71.938087, 48.446975],
-      "zoom": 6,
-      "maxZoom": 19,
+      "center": [-73.563364, 45.456609],
+      "zoom": 15,
+      "maxZoom": 21,
       "maxZoomOnExtent": 17
     }
   },
