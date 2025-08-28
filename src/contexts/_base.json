@@ -12,7 +12,7 @@
     {
       "id": "fond_osm",
       "title": "Open Street Map",
-      "visible": false,
+      "visible": true,
       "baseLayer": true,
       "sourceOptions": {
         "type": "osm",
@@ -138,7 +138,7 @@
     {
       "id": "carte_gouv_qc",
       "title": "Carte Topo",
-      "visible": true,
+      "visible": false,
       "baseLayer": true,
       "sourceOptions": {
         "url": "https://geoegl.msp.gouv.qc.ca/apis/carto/tms/1.0.0/carte_gouv_qc_ro@EPSG_3857/{z}/{x}/{-y}.png",
