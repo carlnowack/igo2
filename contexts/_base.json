@@ -1,7 +1,7 @@
 { 
   "menus": [
     {
-      "id": "actionbar",
+      "id": "toolbar",
       "enabled": true,
       "items": [
         { "tool": "measure" },
